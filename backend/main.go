@@ -40,7 +40,7 @@ func main() {
 	}).Methods("OPTIONS")
 	// ✅ CORS configuration (GUARANTEED)
 	c := cors.New(cors.Options{
-		AllowedOrigins:   []string{"http://localhost:4200"},
+		AllowedOrigins:   []string{"http://localhost:4200", "https://hemant-giri2004.github.io"},
 		AllowedMethods:   []string{"GET", "POST", "DELETE", "OPTIONS"},
 		AllowedHeaders:   []string{"Content-Type", "Authorization"},
 		AllowCredentials: true,
